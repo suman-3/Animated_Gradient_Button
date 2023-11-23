@@ -12,7 +12,7 @@
   --button-color: hsl(260, 16%, 8%);
   --text-color: #fff;
   --body-color: hsl(260, 24%, 6%);
-  
+
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
@@ -92,7 +92,13 @@ a {
 .button__shadow {
   width: 80%;
   height: 1rem;
-  background: linear-gradient(80deg, var(--first-color) 10%, var(--second-color) 30%, var(--third-color) 60%, var(--fourth-color) 90%);
+  background: linear-gradient(
+    80deg,
+    var(--first-color) 10%,
+    var(--second-color) 30%,
+    var(--third-color) 60%,
+    var(--fourth-color) 90%
+  );
   border-radius: 4rem;
   position: absolute;
   left: 0;
